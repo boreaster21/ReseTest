@@ -12,23 +12,23 @@
 
 
 ## 機能一覧
-会員登録機能
-ログイン機能
-ログアウト機能
-メール認証機能
-打刻機能（勤務開始/終了、休憩開始/終了）
-日付別勤怠情報取得機能
-ユーザー検索機能
-ページネーション機能
+会員登録機能<br>
+ログイン機能<br>
+ログアウト機能<br>
+メール認証機能<br>
+打刻機能（勤務開始/終了、休憩開始/終了）<br>
+日付別勤怠情報取得機能<br>
+ユーザー検索機能<br>
+ページネーション機能<br>
 
 ## 使用技術
-php
-Laravel8
-docker
-nginx
-MySQL
-GitHub
-言語やフレームワークバージョンなど
+php<br>
+Laravel8<br>
+docker<br>
+nginx<br>
+MySQL<br>
+GitHub<br>
+言語やフレームワークバージョンなど<br>
 
 ## ER図
 ![image](https://github.com/boreaster21/fortify/assets/155618258/5f4f2e26-6102-4900-add8-4098775f1390)
