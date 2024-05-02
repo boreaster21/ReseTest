@@ -31,7 +31,7 @@ GitHub
 言語やフレームワークバージョンなど
 
 ## ER図
-画像
+![image](https://github.com/boreaster21/fortify/assets/155618258/5f4f2e26-6102-4900-add8-4098775f1390)
 
 ## テーブル設計
 
