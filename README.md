@@ -1,5 +1,5 @@
 # Atte
-トップの画像
+![image]("https://github.com/boreaster21/fortify/assets/155618258/cfe27972-78fa-49cd-8c8c-a5e5e4392c4b")
 どんなアプリか：ある企業の勤怠管理システム
 
 ## 目的
