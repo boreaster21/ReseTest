@@ -51,7 +51,7 @@ GitHub<br>
 言語やフレームワークバージョンなど<br>
 
 ## ER図
-![image](https://github.com/boreaster21/fortify/assets/155618258/5f4f2e26-6102-4900-add8-4098775f1390)
+![ReseTables drawio](https://github.com/boreaster21/ReseTest/assets/155618258/35e2eba2-a2b1-4de8-84b1-32c712dd93af)
 
 ## テーブル設計
 
