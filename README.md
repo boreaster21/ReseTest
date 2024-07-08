@@ -1,4 +1,4 @@
-# Atte
+# Rese
 <img width="950" alt="image" src="https://github.com/boreaster21/Rese/assets/155618258/92c62f07-2e48-4aef-9bb6-8f178f8a933a">
 
 どんなアプリか：ある企業のグループ会社の飲食店予約サービス
