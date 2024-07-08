@@ -1,0 +1,90 @@
+.content {
+    display: flex;
+    justify-content: center;
+    
+    .detail {
+        width: 100%;
+
+        .heading {
+            display: flex;
+            justify-content: left;
+
+            .back {
+                display: block;
+                padding: 1.5vw 1vw;
+                font-size: 2vw;
+                text-decoration: none;
+
+
+            }
+
+            .name {
+                display: block;
+                font-size: 2vw;
+
+            }
+        }
+        .img {
+
+            img {
+                width: 100%;
+            }
+        }
+        .tag {
+            display: flex;
+            .tag__region {
+
+            }
+            .tag__ganre {
+                margin-left: 1vw;
+
+            }
+        }
+    }
+
+    .booking {
+        width: 100%;
+        background-color: #6262ff;
+        color: aliceblue;
+
+        .ttl {}
+
+        .input {
+            .booking__detail {
+                .date {}
+                .time {}
+                .num {}
+
+                .summary {
+                    background-color: rgb(151, 150, 255);
+                    padding: 1vw;
+
+                    .booking__name {}
+
+                    .booking__date {}
+
+                    .booking__time {}
+
+                    .booking__num {}
+                }
+                .booking__button {
+                    button {
+                        width: 100%;
+
+                        background-color: #110dff;
+                        color: white;
+                        padding: 2vw;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 16px;
+                        font-family: Arial, sans-serif;
+                        cursor: pointer;
+                        border: none;
+                    }
+                }
+            }   
+        }
+    }
+
+}

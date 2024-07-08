@@ -1,0 +1,93 @@
+.header__nav{
+    .search{
+        .search-form{
+            display: flex;
+        }
+    }
+}
+
+
+
+.content {
+    margin: 0 auto;
+    padding: 3vw 1.5vw 10vw;
+
+    .wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        .item {
+            justify-content: space-between;
+            width: calc((100% - 30px * 2) / 3);
+            background-color: #fff;
+
+            .card__img {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .card__content {
+                padding: 15px 25px;
+
+                .card__name {
+                    font-size: 18px;
+                    margin-bottom: 30px;
+                    font-weight: 400;
+                }
+
+                .tag {
+                    font-size: 14px;
+                    text-align: right;
+
+                    .card__tag {
+                        display: inline-block;
+                        color: #008888;
+                    }
+                }
+                .detail__button{
+                    a{
+                        text-decoration: none;
+                    }
+                }
+                .fav__button {
+                    a{
+                        .heart{
+                            width: 10%;
+                        }
+                        .heart_black {
+                            width: 10%;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+.card {
+    width: 30%;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card__detail {
+    padding: 5px 10px;
+    background: #008888;
+    margin-bottom: 15px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+
+@media not all and (min-width: 768px) {
+    .item {
+        width: 100%;
+    }
+}
+
+.liked {
+    color: rgb(255, 87, 115);
+}

@@ -1,0 +1,110 @@
+#toggle-nav {
+    display: none;
+
+    &:checked {
+        ~.hamburger {
+            height: 28px;
+
+            div {
+                background-color: #fff;
+
+                &:nth-of-type(1) {
+                    margin-top: 6px;
+                    transform: rotate(135deg);
+                }
+
+                &:nth-of-type(2) {
+                    opacity: 0;
+                }
+
+                &:nth-of-type(3) {
+                    margin-top: -12px;
+                    transform: rotate(-135deg);
+                }
+            }
+        }
+
+        ~.menu {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+.hamburger {
+    cursor: pointer;
+    position: fixed;
+    z-index: 1020;
+    top: 3.5vw;
+    left: 1vw;
+    width: 2vw;
+    height: 1vw;
+    margin: 0;
+    padding: 0;
+
+    div {
+        position: relative;
+        width: 100%;
+        height: 2px;
+        background-color: #000;
+        transition: background-color .5s, transform .5s;
+
+        &:nth-of-type(2) {
+            margin: 4px 0;
+        }
+    }
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1010;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    background-color: #000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease-out;
+    will-change: opacity, visibility;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        li {
+            margin-bottom: 4px;
+            font-size: 32px;
+
+            a,
+            a:hover {
+                color: #fff;
+                text-decoration: none;
+            }
+            
+                form {
+
+                    button {
+                        background-color: transparent;
+                        border: none;
+                        cursor: pointer;
+                        outline: none;
+                        padding: 0;
+                        appearance: none;
+                        color: #fff;
+                        text-decoration: none;
+                        font-family: 'Roboto Slab', serif;
+                        font-size: 32px;
+                    }                    
+                }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+.content {
+    margin: 0 auto;
+    padding: 3vw 1.5vw 20vw;
+}
+
+.heading {
+    margin-bottom: 2vw;
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+.form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 1vw;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #fafafa;
+    color: #aaa;
+}
+
+.form__error {
+    height: 1vw;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input {
+    text-align: center;
+    margin-bottom: 2vw;
+}
+.form__input--text{
+    padding: 1vw;
+    width: 30vw;
+    background-color: #f0f0f0;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    appearance: none;
+    font-size: 1.5vw;
+}
+.form__button {
+    margin-top: 30px;
+    margin: auto;
+}
+.form__button-submit {
+    padding: 10px;
+    width: 32vw;
+    border: none;
+    border-radius: 3px;
+    background: #0004ee;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.3vw;
+}
+.form__remember{
+    font-size: 1.3vw;
+}
+
+
+.guide {
+    font-size: 1.3vw;
+}
+.guide__text {
+    margin: 2vw auto 0;
+}
+.guide__register {
+    text-decoration: none;
+    color: #0004ee;
+        font-weight: bold;
+}

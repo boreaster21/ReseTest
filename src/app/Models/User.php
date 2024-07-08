@@ -10,6 +10,7 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Fortify\TwoFactorAuthenticatable;
 use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Sanctum\HasApiTokens;
+use App\Models\Fav;
 
 class User extends Authenticatable implements MustVerifyEmailContract
 {
@@ -29,6 +30,7 @@ class User extends Authenticatable implements MustVerifyEmailContract
         'name',
         'email',
         'password',
+        'role',
     ];
 
     /**
@@ -72,4 +74,15 @@ class User extends Authenticatable implements MustVerifyEmailContract
     {
         $this->notify(new \App\Notifications\VerifyEmailJapanese);
     }
+
+    public function favs()
+    {
+        return $this->hasMany('App\Models/Fav');
+    }
+    public function shops()
+    {
+        return $this->hasMany('App\Models/Shop');
+    }
+
+
 }

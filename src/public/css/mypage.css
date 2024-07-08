@@ -1,0 +1,183 @@
+.content {
+    .booking_fav{
+        display: flex;
+        justify-content: space-between;
+        .booking-state {
+            width: 100%;
+            padding: 0px 2vw;
+            .user-name {}
+            .ttl {}
+            .booking-cards {
+                background-color: rgb(60, 95, 250);
+                color: #fff;
+                a {
+                    .batu {
+                        width: 5%;
+                    }
+                }
+                p {}
+                .booking-detail {
+                    tr {}
+                    th {}
+                    td {
+                        .booking-input {
+                            margin: 0;
+                            padding: 0;
+                            background: none;
+                            border: none;
+                            border-radius: 0;
+                            /* outline: #ccc 1px solid; */
+                            -webkit-appearance: none;
+                            -moz-appearance: none;
+                            appearance: none;
+                            color: #fff;
+                        }
+                        input::-webkit-input-placeholder {
+                            color: rgb(255, 255, 255);
+                            font-weight: bolder;
+                        }
+                    }
+                }
+            }
+        }
+        .favs {
+            width: 100%;
+            .user-name {}
+            .ttl {}
+            .wrap {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 3.5vw;
+                .item {
+                    width: calc((100% - 5vw * 2) / 2);
+                    background-color: #fff;
+                    .card__img {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .card__content {
+                        padding: 15px 25px;
+    
+                        .card__name {
+                            font-size: 18px;
+                            margin-bottom: 30px;
+                            font-weight: 400;
+                        }
+                        .tag {
+                            font-size: 14px;
+                            text-align: right;
+    
+                            .card__tag {
+                                display: inline-block;
+                                color: #008888;
+                            }
+                        }
+                        .fav__button {
+                            a {
+                                .heart {
+                                    width: 10%;
+                                }
+    
+                                .heart_black {
+                                    width: 10%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .reviews {
+        display: flex;
+        justify-content: space-between;
+        .not_posted{
+            width: 100%;
+            padding: 0px 2vw;
+            .reviews-cards {
+                display: flex;
+                /* justify-content: space-around; */
+                background-color: rgb(255, 255, 255);
+                color: #000000;
+                margin: 1vw;
+                .reviews-detail {
+                    margin: 1vw;
+                }
+                .reviews__form {
+                    margin: 1vw;
+                    .stars {
+                        .stars-span {
+                            display: flex;
+                            flex-direction: row-reverse;
+                            justify-content: flex-end;
+                        }
+                        /* input[type='radio'] {
+                            display: none;
+                        } */
+                    }
+                    button {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .posted{
+            width: 100%;
+            padding: 0px 2vw;
+            .reviews-cards {
+                display: flex;
+                /* justify-content: space-around; */
+                background-color: rgb(255, 255, 255);
+                color: #000000;
+                margin: 1vw;
+                .reviews-detail {
+                    margin: 1vw;
+                }
+                .reviews__form {
+                    margin: 1vw;
+                    .stars {
+                        .stars-span {
+                            display: flex;
+                            flex-direction: row-reverse;
+                            justify-content: flex-end;
+                        }
+                        /* input[type='radio'] {
+                            display: none;
+                        } */
+                    }
+                    button {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.stars label {
+    color: #D2D2D2;
+    font-size: 2vw;
+    padding: 0 1px;
+    cursor: pointer;
+}
+.stars label:hover,
+.stars label:hover~label,
+.stars input[type='radio']:checked~label {
+    color: #F8C601;
+}
+
+.wrap-favs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    .item {
+        width: calc((100% - 30px * 2) / 3);
+        background-color: #fff;
+    }
+}
+@media not all and (min-width: 768px) {
+    .item {
+        width: 100%;
+    }
+}

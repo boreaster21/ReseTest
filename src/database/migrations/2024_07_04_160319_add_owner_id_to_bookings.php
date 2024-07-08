@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateDatesTable extends Migration
+class AddOwnerIdToBookings extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,8 @@ class CreateDatesTable extends Migration
      */
     public function up()
     {
-        Schema::create('dates', function (Blueprint $table) {
-            $table->id();
-            $table->date('target')->nullable();
-            $table->timestamps();
+        Schema::table('bookings', function (Blueprint $table) {
+            $table->integer('owner_id')->after('shop_id');
         });
     }
 
@@ -27,6 +25,8 @@ class CreateDatesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('dates');
+        Schema::table('bookings', function (Blueprint $table) {
+            //
+        });
     }
 }
