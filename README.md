@@ -1,5 +1,6 @@
 # Atte
-![image](https://github.com/boreaster21/fortify/assets/155618258/cfe27972-78fa-49cd-8c8c-a5e5e4392c4b)
+<img width="950" alt="image" src="https://github.com/boreaster21/Rese/assets/155618258/92c62f07-2e48-4aef-9bb6-8f178f8a933a">
+
 どんなアプリか：ある企業のグループ会社の飲食店予約サービス
 
 ## 目的
